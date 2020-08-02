@@ -18,6 +18,7 @@ class WeatherApp {
         this.date = displayDate(weather.dt);
         
         const container = document.querySelector('.container');
+        container.innerHTML = ' ' ;
         const weatherElement = document.createElement("div");
         weatherElement.classList.add('app');
         weatherElement.innerHTML = `
